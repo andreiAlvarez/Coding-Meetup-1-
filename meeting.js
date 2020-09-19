@@ -29,3 +29,10 @@ var list1 = [
 ];
 
 const isRubyComing = list => list.some(obj=>obj.language==='Ruby'); 
+
+// solution 4 Meeting # 4
+
+const getFirstPython = list => {
+   let dev=list.find(obj=>obj.language==='Python')
+  return dev?`${dev.firstName}, ${dev.country}`:'There will be no Python developers'
+}
