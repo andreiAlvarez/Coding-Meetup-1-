@@ -36,3 +36,6 @@ const getFirstPython = list => {
    let dev=list.find(obj=>obj.language==='Python')
   return dev?`${dev.firstName}, ${dev.country}`:'There will be no Python developers'
 }
+
+// solution 4 Meeting #4 clever
+getFirstPython=a=>(a=>a.length?`${a[0].firstName}, ${a[0].country}`:'There will be no Python developers')(a.filter(({language:l})=>l[1]=='y'));
