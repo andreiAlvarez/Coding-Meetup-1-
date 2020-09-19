@@ -1,4 +1,4 @@
-# Coding-Meetup-1-
+# Coding Meetup #1
 
 You will be given an array of objects (hashes in ruby) representing data about developers who have signed up to attend the coding meetup that you are organising for the first time.
 
