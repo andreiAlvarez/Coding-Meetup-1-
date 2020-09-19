@@ -39,3 +39,8 @@ const getFirstPython = list => {
 
 // solution 4 Meeting #4 clever
 getFirstPython=a=>(a=>a.length?`${a[0].firstName}, ${a[0].country}`:'There will be no Python developers')(a.filter(({language:l})=>l[1]=='y'));
+
+
+// solution 5 Meeting # 6
+
+const isSameLanguage = list => list.every(({ language }) => language === list[0].language); 
